@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:dio/dio.dart' as dio;
 
-import '../../core/constants/endpoint_constants.dart';
+import '../../../core/constants/endpoint_constants.dart';
 
 abstract class BaseService {
   final String baseUrl = Endpoint.BASE_URL;

@@ -1,4 +1,4 @@
-import '../core/constants/endpoint_constants.dart';
+import '../../core/constants/endpoint_constants.dart';
 import 'sample.dart';
 import 'services/base_service.dart';
 import 'services/sample_service.dart';

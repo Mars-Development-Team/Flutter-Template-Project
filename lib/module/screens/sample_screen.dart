@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_template_project/utils/size_config.dart';
 import 'package:provider/provider.dart';
 
-import '../../model/apis/api_response.dart';
-import '../../model/sample.dart';
-import '../../view_model/sample_view_model.dart';
+import '../model/apis/api_response.dart';
+import '../model/sample.dart';
+import '../view_model/sample_view_model.dart';
 
 class SampleScreen extends StatefulWidget {
   @override
@@ -50,6 +51,7 @@ class _SampleScreenState extends State<SampleScreen> {
   @override
   Widget build(BuildContext context) {
     final apiResponse = context.watch<SampleViewModel>().response;
+    MySize().init(context);
     return Scaffold(
       body: Column(
         children: <Widget>[

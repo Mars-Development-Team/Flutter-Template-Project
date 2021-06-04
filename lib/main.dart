@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 
-import 'view/screens/sample_screen.dart';
-import 'view_model/sample_view_model.dart';
+import 'module/screens/sample_screen.dart';
+import 'module/view_model/sample_view_model.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

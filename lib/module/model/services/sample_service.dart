@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:dio/dio.dart';
 
-import '../../core/constants/endpoint_constants.dart';
+import '../../../core/constants/endpoint_constants.dart';
 import '../apis/app_exception.dart';
 import 'base_service.dart';
 
