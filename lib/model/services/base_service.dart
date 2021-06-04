@@ -1,5 +1,12 @@
-abstract class BaseService {
-  final String mediaBaseUrl = 'https://itunes.apple.com/search?term=';
+import 'package:dio/dio.dart';
+import 'package:dio/dio.dart' as dio;
 
-  Future<dynamic> getResponse(String url);
+import '../../core/constants/endpoint_constants.dart';
+
+abstract class BaseService {
+  final String baseUrl = Endpoint.BASE_URL;
+
+  Future<dynamic> fetchRequest(String path, Options? options);
+  Future<dynamic> postRequest(String path, dynamic model);
+  dynamic returnResponse(dio.Response response);
 }
