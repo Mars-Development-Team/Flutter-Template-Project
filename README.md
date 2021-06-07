@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Mars-Development-Team/Flutter-Template-Project">
-    <img style="border-radius:50%;" src="https://user-images.githubusercontent.com/34552821/120975756-42778a00-c77a-11eb-9bd0-9056553aa2cc.png" alt="Logo" width="80" height="80">
+    <img src="https://user-images.githubusercontent.com/34552821/120991492-5f1bbe00-c78a-11eb-9a96-65dfd7b08a47.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Flutter Template Project</h3>
