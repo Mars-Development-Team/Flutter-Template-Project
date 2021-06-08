@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_template_project/module/model/apis/api_response.dart';
-import 'package:flutter_template_project/module/model/sample.dart';
-import 'package:flutter_template_project/module/view_model/sample_view_model.dart';
-import 'package:flutter_template_project/utils/size_config.dart';
+import '../../../model/apis/api_response.dart';
+import '../../../model/sample.dart';
+import '../../../view_model/sample_view_model.dart';
+import '../../../../utils/size_config.dart';
 import 'package:provider/provider.dart';
 
 class SampleScreen extends StatefulWidget {
