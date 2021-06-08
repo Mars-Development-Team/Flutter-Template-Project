@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../../model/apis/api_response.dart';
+import 'package:mars_rover/mars_rover.dart';
 import '../../../model/sample.dart';
 import '../../../view_model/sample_view_model.dart';
-import '../../../../utils/size_config.dart';
 import 'package:provider/provider.dart';
 
 class SampleScreen extends StatefulWidget {

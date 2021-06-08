@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import '../model/apis/api_response.dart';
+import 'package:mars_rover/networking/model/api_response.dart';
 import '../model/sample_repository.dart';
 
 class SampleViewModel with ChangeNotifier {

@@ -1,4 +1,5 @@
-import 'services/network_model.dart';
+import 'package:mars_rover/networking/model/network_model.dart';
+
 import 'package:json_annotation/json_annotation.dart';
 part 'sample.g.dart';
 

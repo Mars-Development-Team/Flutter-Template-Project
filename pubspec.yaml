@@ -25,14 +25,15 @@ dependencies:
     sdk: flutter
   dio: ^4.0.0
   intl: ^0.17.0
+  mars_rover: ^0.0.1
   provider: ^5.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  pedantic: ^1.11.0
-  json_serializable: ^4.1.3
   build_runner: ^2.0.4
+  json_serializable: ^4.1.3
+  pedantic: ^1.11.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
