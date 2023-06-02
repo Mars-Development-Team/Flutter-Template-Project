@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mars_rover/mars_rover.dart';
+import '../../../../networking/model/api_response.dart';
 import '../../../model/sample.dart';
 import '../../../view_model/sample_view_model.dart';
 import 'package:provider/provider.dart';
@@ -49,13 +49,14 @@ class _SampleScreenState extends State<SampleScreen> {
   @override
   Widget build(BuildContext context) {
     final apiResponse = context.watch<SampleViewModel>().response;
-    MySize().init(context);
-    return Scaffold(
-      body: Column(
-        children: <Widget>[
-          Expanded(child: getDataWidget(context, apiResponse)),
-        ],
-      ),
-    );
+    return Container();
+    // MySize().init(context);
+    // return Scaffold(
+    //   body: Column(
+    //     children: <Widget>[
+    //       Expanded(child: getDataWidget(context, apiResponse)),
+    //     ],
+    //   ),
+    // );
   }
 }

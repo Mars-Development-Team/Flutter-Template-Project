@@ -1,6 +1,6 @@
-import 'package:mars_rover/networking/model/network_model.dart';
-
 import 'package:json_annotation/json_annotation.dart';
+
+import '../../networking/model/network_model.dart';
 part 'sample.g.dart';
 
 @JsonSerializable()

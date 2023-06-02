@@ -1,7 +1,6 @@
-import 'package:mars_rover/mars_rover.dart';
-import 'package:mars_rover/networking/services/service.dart';
-
 import '../../core/constants/endpoint_constants.dart';
+import '../../networking/services/base_service.dart';
+import '../../networking/services/service.dart';
 import 'sample.dart';
 
 class SampleRepository {
