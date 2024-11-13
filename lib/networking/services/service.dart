@@ -11,8 +11,8 @@ class Service extends BaseService {
   Service.init({required String baseUrl}) {
     option = BaseOptions(
       baseUrl: baseUrl,
-      connectTimeout: 5000,
-      receiveTimeout: 3000,
+      connectTimeout: Duration(milliseconds: 5000),
+      receiveTimeout: Duration(milliseconds: 5000),
       contentType: Headers.jsonContentType,
     );
     dio = Dio(option);
